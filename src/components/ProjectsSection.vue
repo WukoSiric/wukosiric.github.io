@@ -9,6 +9,18 @@
       <li>Established basic, global messaging with randomly picked usernames with SocketIO and NodeJS </li>
       <li>Connected server to Atlas DB server using .env files </li>        
     </ul>
-    <img class="size-82" src="../assets/img/chatapp.png" />
+    <img class="w-full" src="../assets/img/chatapp.png" />
+
+    <h2 class="font-mono text-3xl font-bold col-span-2 xl:text-5xl">MAZE VISUALIZER.</h2>
+    <h3 class="col-span-2 text-md font-mono font-bold text-accent xl:text-4xl">Personal Project (March)</h3>
+    <span class="font-medium col-span-2 text-lg">Used Vue.Js to implement maze generating and solving graphics, deployed on GitHub Pages</span>
+    <ul class="font-light text-lg col-span-2 lg:col-span-1 list-disc pl-5">
+      <li>Completed maze generation with recursive backtracking, along with DFS and BFS for maze solving</li>
+      <li>Established communication between components using custom events</li>
+      <li>Leveraged media queries to ensure the maze and navigation bar are responsive and viewable on all devices</li>        
+      <li>Organised project using GitHub tasks, issues, and a kanban</li>        
+    </ul>
+    <img class="w-full" src="../assets/img/mazesolver.png" />
+    <!-- <embed class="col-span-2" src="https://wukosiric.github.io/vue-maze-visualizer/" style="width:100%; height: 500px;"> -->
   </div>
 </template>
