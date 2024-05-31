@@ -20,13 +20,13 @@ export default {
       >Collaborated with a designer and programmer to produce two hyper-casual mobile games released
       on the Google Play Store - each garnering 100+ downloads.</span
     >
-    <ul class="col-span-3 text-lg font-light md:col-span-2 xl:text-xl">
-      <li>• Responsible for programming inputs, level generation, and level transitions</li>
+    <ul class="col-span-3 text-lg font-light md:col-span-2 xl:text-xl list-disc pl-6">
+      <li>Responsible for programming inputs, level generation, and level transitions</li>
       <li>
-        • Utilised scriptable objects and abstract classes to smoothly implement powerup and economy
+        Utilised scriptable objects and abstract classes to smoothly implement powerup and economy
         systems
       </li>
-      <li>• Resolved merge conflicts using Fork and Git</li>
+      <li>Resolved merge conflicts using Fork and Git</li>
     </ul>
     <img
       src="../assets/img/minimammothgames.png"
