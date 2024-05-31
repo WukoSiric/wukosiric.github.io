@@ -30,18 +30,18 @@ export default {
 
 <template>
   <div class="hero grid w-full grid-cols-3 gap-2 bg-fixed p-5 sm:px-20 lg:px-56 lg:py-36 2xl:px-80">
-    <LanPendingIcon
-      fillColor="#42d957"
-      :size="258"
-      class="col-span-3 hidden justify-self-end drop-shadow-xl lg:grid"
-    />
-    <span class="col-span-3 font-mono text-5xl font-bold text-accent">hello, </span>
     <span
-      class="col-span-3 flex items-center text-7xl font-bold text-offwhite sm:col-span-2 md:col-span-2 2xl:col-span-1"
+      class="col-span-3 justify-self-center font-mono text-2xl font-bold text-accent md:justify-self-start md:text-5xl"
+      >hello,
+    </span>
+    <span
+      class="col-span-3 flex items-center justify-self-center text-5xl font-bold text-offwhite sm:col-span-2 md:col-span-2 md:justify-self-start md:text-7xl 2xl:col-span-1"
     >
       I'm Luke.
     </span>
-    <div class="socials col-span-1 flex items-center justify-self-start">
+    <div
+      class="socials col-span-3 flex items-center justify-self-center md:col-span-1 md:justify-self-start"
+    >
       <LinkedinIcon
         :size="48"
         class="transition-transform duration-75 hover:scale-110 hover:cursor-pointer"
@@ -51,12 +51,17 @@ export default {
         class="transition-transform duration-75 hover:scale-110 hover:cursor-pointer"
       />
     </div>
-    <span class="col-span-3 text-lg">
+    <span class="col-span-3 text-lg font-light lg:col-span-2">
       Welcome to my corner of the internet! I’m a recent Computer Science graduate with a strong
       interest in web development, majoring in Distributed Systems and Networking. With experience
       working in a collaborative environment under my belt, I look forward to applying and
       developing my skills!
     </span>
+    <LanPendingIcon
+      fillColor="#42d957"
+      :size="258"
+      class="col-span-1 hidden justify-self-end drop-shadow-xl lg:grid"
+    />
     <div class="spcaer col-span-3 h-5"></div>
     <div class="languages col-span-3 md:col-span-1">
       <span class="text-lg font-bold text-tert"> LANGUAGES </span>

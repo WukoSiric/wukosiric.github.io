@@ -1,5 +1,5 @@
 <template>
-  <div class="projects px-5 sm:px-24 md:px-52 2xl:px-80">
+  <div class="projects bg-slate-900 px-5 sm:px-24 md:px-52 2xl:px-80">
     <h1 class="py-8 text-5xl font-bold md:text-7xl">Projects.</h1>
     <h2 class="col-span-3 font-mono text-3xl font-bold xl:text-5xl">CHAT APPLICATION.</h2>
     <h3 class="text-md font-mono font-bold text-accent xl:text-4xl">Personal Project (Ongoing)</h3>
