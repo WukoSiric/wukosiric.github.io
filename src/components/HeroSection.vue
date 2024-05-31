@@ -32,7 +32,7 @@ export default {
   <div class="hero grid w-full grid-cols-3 gap-2 bg-fixed p-5 sm:px-20 lg:px-56 lg:py-36 2xl:px-80">
     <LanPendingIcon
       fillColor="#42d957"
-      size="258"
+      :size="258"
       class="col-span-3 hidden justify-self-end drop-shadow-xl lg:grid"
     />
     <span class="col-span-3 font-mono text-5xl font-bold text-accent">hello, </span>
