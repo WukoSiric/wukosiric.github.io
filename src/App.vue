@@ -14,9 +14,9 @@ export default {
 
 <template>
   <NavBar />
-  <div class="content">
-    <HeroSection />
-    <ExperienceSection />
+  <div class="content scroll-smooth">
+    <HeroSection id="about" />
+    <ExperienceSection id="experience" />
   </div>
 </template>
 

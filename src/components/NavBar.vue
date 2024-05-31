@@ -1,6 +1,7 @@
 <script>
 import MenuIcon from 'vue-material-design-icons/Menu.vue'
 import MenuCloseIcon from 'vue-material-design-icons/MenuClose.vue'
+import { RouterLink } from 'vue-router'
 
 export default {
   components: {
@@ -15,11 +16,16 @@ export default {
   methods: {
     openMenu() {
       this.expanded = true
-      console.log('opening menu')
     },
     closeMenu() {
       this.expanded = false
-      console.log('closing menu')
+    },
+    scrollToSection(sectionId) {
+      const section = document.getElementById(sectionId)
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' })
+        this.closeMenu()
+      }
     }
   }
 }
@@ -38,10 +44,30 @@ export default {
       :class="expanded ? 'flex' : 'hidden'"
       class="flex-col items-center gap-1 text-lg font-bold md:flex md:flex-row md:justify-between md:space-x-4"
     >
-      <li class="select-none hover:cursor-pointer hover:text-white">About</li>
-      <li class="select-none hover:cursor-pointer hover:text-white">Experience</li>
-      <li class="select-none hover:cursor-pointer hover:text-white">Projects</li>
-      <li class="select-none hover:cursor-pointer hover:text-white">Contact</li>
+      <li
+        class="select-none hover:cursor-pointer hover:text-white"
+        @click="scrollToSection('about')"
+      >
+        About
+      </li>
+      <li
+        class="select-none hover:cursor-pointer hover:text-white"
+        @click="scrollToSection('experience')"
+      >
+        Experience
+      </li>
+      <li
+        class="select-none hover:cursor-pointer hover:text-white"
+        @click="scrollToSection('projects')"
+      >
+        Projects
+      </li>
+      <li
+        class="select-none hover:cursor-pointer hover:text-white"
+        @click="scrollToSection('contact')"
+      >
+        Contact
+      </li>
       <li
         class="border-r-10 select-none rounded-lg bg-accent p-1 text-slate-dark hover:cursor-pointer hover:bg-tert"
       >
