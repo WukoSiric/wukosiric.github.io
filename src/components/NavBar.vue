@@ -27,7 +27,7 @@ export default {
 
 <template>
   <div
-    class="sticky top-0 box-border flex w-screen flex-col items-center justify-between bg-slate-dark py-3 text-offwhite sm:px-16 md:flex-row lg:px-44"
+    class="sticky top-0 box-border flex w-screen flex-col items-center justify-between gap-4 bg-slate-dark py-3 text-offwhite sm:px-16 md:flex-row lg:px-44"
   >
     <div class="nav-header flex w-full flex-row justify-between">
       <div class="logo select-none text-2xl font-extrabold text-accent">LUKE STAINER</div>
@@ -36,7 +36,7 @@ export default {
     </div>
     <ul
       :class="expanded ? 'flex' : 'hidden'"
-      class="items flex-col items-center text-lg font-bold md:flex md:flex-row md:justify-between md:space-x-4"
+      class="flex-col items-center gap-1 text-lg font-bold md:flex md:flex-row md:justify-between md:space-x-4"
     >
       <li class="select-none hover:cursor-pointer hover:text-white">About</li>
       <li class="select-none hover:cursor-pointer hover:text-white">Experience</li>
