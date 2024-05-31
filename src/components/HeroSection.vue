@@ -29,12 +29,23 @@ export default {
 </script>
 
 <template>
-  <div class="hero grid w-full grid-cols-3 gap-2 lg:px-56">
-    <LanPendingIcon fillColor="#42d957" size="250" class="col-span-3 justify-self-end" />
+  <div class="hero grid w-full grid-cols-3 gap-2 p-5 sm:px-20 md:py-16 lg:px-56 lg:py-36 xl:px-80">
+    <LanPendingIcon
+      fillColor="#42d957"
+      size="258"
+      class="col-span-3 hidden justify-self-end sm:grid"
+    />
     <div class="about col-span-3">
-      <span class="font-mono text-2xl font-bold text-accent">hello, </span>
-      <span class="flex items-center text-5xl font-bold"
-        >I'm Luke. <LinkedinIcon :size="48" /> <GithubIcon :size="48" />
+      <span class="font-mono text-5xl font-bold text-accent">hello, </span>
+      <span class="flex items-center text-7xl font-bold">
+        I'm Luke.<LinkedinIcon
+          :size="48"
+          class="p-3 pl-4 transition-transform duration-75 hover:scale-110 hover:cursor-pointer"
+        />
+        <GithubIcon
+          :size="48"
+          class="p-3 transition-transform duration-75 hover:scale-110 hover:cursor-pointer"
+        />
       </span>
       <span class="text-lg">
         Welcome to my corner of the internet! I’m a recent Computer Science graduate with a strong
@@ -47,19 +58,19 @@ export default {
     <div class="languages col-span-3 md:col-span-1">
       <span class="text-lg font-bold text-tert"> LANGUAGES </span>
       <div class="icons flex">
-        <LanguageCPPIcon />
-        <LanguageJavascriptIcon />
-        <LanguagePythonIcon />
-        <LanguageHTML5Icon />
-        <LanguageCSS3Icon />
+        <LanguageCPPIcon :size="40" />
+        <LanguageJavascriptIcon :size="40" />
+        <LanguagePythonIcon :size="40" />
+        <LanguageHTML5Icon :size="40" />
+        <LanguageCSS3Icon :size="40" />
       </div>
     </div>
     <div class="tools col-span-3 md:col-span-1">
       <span class="text-lg font-bold text-tert"> TOOLS </span>
       <div class="icons flex">
-        <GitIcon />
-        <VuejsIcon />
-        <UnityIcon />
+        <GitIcon :size="40" />
+        <VuejsIcon :size="40" />
+        <UnityIcon :size="40" />
       </div>
     </div>
     <div class="education col-span-3">
@@ -76,6 +87,7 @@ export default {
 .hero {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../assets/img/pexels-photo-574087.jpeg);
+  background-image: linear-gradient(transparent, #0e242d 90%),
+    url(../assets/img/pexels-photo-574087.webp);
 }
 </style>
