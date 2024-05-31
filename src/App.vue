@@ -2,21 +2,24 @@
 import NavBar from './components/NavBar.vue'
 import HeroSection from './components/HeroSection.vue'
 import ExperienceSection from './components/ExperienceSection.vue'
+import ProjectsSection from './components/ProjectsSection.vue'
 
 export default {
   components: {
     NavBar,
     HeroSection,
-    ExperienceSection
+    ExperienceSection,
+    ProjectsSection
   }
 }
 </script>
 
 <template>
   <NavBar />
-  <div class="content scroll-smooth">
+  <div class="content gap-10">
     <HeroSection id="about" />
     <ExperienceSection id="experience" />
+    <ProjectsSection id="projects" />
   </div>
 </template>
 
