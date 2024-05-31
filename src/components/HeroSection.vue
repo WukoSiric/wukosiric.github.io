@@ -33,27 +33,30 @@ export default {
     <LanPendingIcon
       fillColor="#42d957"
       size="258"
-      class="col-span-3 hidden justify-self-end sm:grid"
+      class="col-span-3 hidden justify-self-end drop-shadow-xl lg:grid"
     />
-    <div class="about col-span-3">
-      <span class="font-mono text-5xl font-bold text-accent">hello, </span>
-      <span class="flex items-center text-7xl font-bold">
-        I'm Luke.<LinkedinIcon
-          :size="48"
-          class="p-3 pl-4 transition-transform duration-75 hover:scale-110 hover:cursor-pointer"
-        />
-        <GithubIcon
-          :size="48"
-          class="p-3 transition-transform duration-75 hover:scale-110 hover:cursor-pointer"
-        />
-      </span>
-      <span class="text-lg">
-        Welcome to my corner of the internet! I’m a recent Computer Science graduate with a strong
-        interest in web development, majoring in Distributed Systems and Networking.With experience
-        working in a collaborative environment under my belt, I look forward to applying and
-        developing my skills!
-      </span>
+    <span class="col-span-3 font-mono text-5xl font-bold text-accent">hello, </span>
+    <span
+      class="col-span-3 flex items-center text-7xl font-bold text-offwhite sm:col-span-2 md:col-span-2 2xl:col-span-1"
+    >
+      I'm Luke.
+    </span>
+    <div class="socials col-span-1 flex items-center justify-self-start">
+      <LinkedinIcon
+        :size="48"
+        class="transition-transform duration-75 hover:scale-110 hover:cursor-pointer"
+      />
+      <GithubIcon
+        :size="48"
+        class="transition-transform duration-75 hover:scale-110 hover:cursor-pointer"
+      />
     </div>
+    <span class="col-span-3 text-lg">
+      Welcome to my corner of the internet! I’m a recent Computer Science graduate with a strong
+      interest in web development, majoring in Distributed Systems and Networking. With experience
+      working in a collaborative environment under my belt, I look forward to applying and
+      developing my skills!
+    </span>
     <div class="spcaer col-span-3 h-5"></div>
     <div class="languages col-span-3 md:col-span-1">
       <span class="text-lg font-bold text-tert"> LANGUAGES </span>
@@ -76,7 +79,7 @@ export default {
     <div class="education col-span-3">
       <span class="text-lg font-bold text-tert"> EDUCATION </span>
       <div class="text-lg text-offwhite">
-        <span class="font-bold"> The University of Adelaide (2021 - 2023) <br /> </span>
+        <span class="font-bold"> The University of Adelaide (2021 - 2023)<br /> </span>
         <span> Bachelor of Computer Science (Distributed Systems and Networking) </span>
       </div>
     </div>
