@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <div class="experience grid w-full grid-cols-3 px-5 sm:px-24 md:px-52 2xl:px-80">
+  <div class="experience grid w-full grid-cols-3 px-5 py-20 pb-40 sm:px-24 md:px-52 2xl:px-80">
     <div class="gameplay absolute left-1/3 h-full w-1/2"></div>
     <h1 class="col-span-3 py-8 text-5xl font-bold md:text-7xl">Experience.</h1>
     <h2 class="col-span-3 font-mono text-3xl font-bold xl:text-5xl">PROGRAMMER.</h2>
