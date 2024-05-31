@@ -1,20 +1,19 @@
 <script>
 import NavBar from './components/NavBar.vue'
+import HeroSection from './components/HeroSection.vue'
 
 export default {
   components: {
-    NavBar
+    NavBar,
+    HeroSection
   }
 }
 </script>
 
 <template>
   <NavBar />
-  <div>
-    Welcome to my corner of the internet! I’m a recent Computer Science graduate with a strong
-    interest in web development, majoring in Distributed Systems and Networking.With experience
-    working in a collaborative environment under my belt, I look forward to applying and developing
-    my skills!
+  <div class="content">
+    <HeroSection />
   </div>
 </template>
 
