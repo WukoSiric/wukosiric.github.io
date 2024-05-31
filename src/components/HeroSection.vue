@@ -90,6 +90,6 @@ export default {
 .hero {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: linear-gradient(transparent, #0e242d 90%), url(../assets/img/hero.webp);
+  background-image: linear-gradient(#0e242da6, #0e242d 90%), url(../assets/img/hero.webp);
 }
 </style>
