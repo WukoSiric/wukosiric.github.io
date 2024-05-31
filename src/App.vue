@@ -1,11 +1,13 @@
 <script>
 import NavBar from './components/NavBar.vue'
 import HeroSection from './components/HeroSection.vue'
+import ExperienceSection from './components/ExperienceSection.vue'
 
 export default {
   components: {
     NavBar,
-    HeroSection
+    HeroSection,
+    ExperienceSection
   }
 }
 </script>
@@ -14,6 +16,7 @@ export default {
   <NavBar />
   <div class="content">
     <HeroSection />
+    <ExperienceSection />
   </div>
 </template>
 
