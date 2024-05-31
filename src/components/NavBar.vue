@@ -1,6 +1,6 @@
 <template>
   <div
-    class="fixed top-0 flex w-screen flex-col items-center justify-between bg-slate-dark p-3 text-offwhite md:flex-row"
+    class="sticky top-0 box-border flex w-screen flex-col items-center justify-between bg-slate-dark p-3 text-offwhite md:flex-row"
   >
     <div class="logo select-none text-2xl font-extrabold text-accent">LUKE STAINER</div>
     <ul
