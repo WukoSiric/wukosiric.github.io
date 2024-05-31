@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <div class="experience grid w-full grid-cols-3 p-5 sm:px-24 md:px-36 lg:px-80">
+  <div class="experience xl:px-42 grid w-full grid-cols-3 px-5 sm:px-24 md:px-52 2xl:px-80">
     <div class="gameplay absolute left-1/3 h-full w-1/2"></div>
     <h1 class="col-span-3 py-8 text-5xl font-bold md:text-7xl">Experience.</h1>
     <h2 class="col-span-3 font-mono text-3xl font-bold xl:text-5xl">PROGRAMMER.</h2>
@@ -37,8 +37,14 @@ export default {
         src="../assets/img/golfmayhem.png"
         class="col-span-3 row-span-2 aspect-square h-auto w-36 justify-self-center md:col-span-1"
       />
-      <h3 class="col-span-3 justify-self-start text-3xl font-bold text-offwhite">
-        Mini Golf Mayhem
+      <h3
+        class="col-span-3 flex items-center gap-4 justify-self-start text-3xl font-bold text-offwhite"
+      >
+        <GooglePlayIcon
+          :size="34"
+          class="transition-all duration-75 ease-in hover:scale-110 hover:cursor-pointer"
+        />
+        <span>Mini Golf Mayhem</span>
       </h3>
       <div class="col-span-3 text-lg">
         Mayhem meets mini golf in this simple but ridiculously chaotic game, featuring short
@@ -48,9 +54,14 @@ export default {
       </div>
       <img
         src="../assets/img/everhungry.png"
-        class="col-span-3 row-span-2 aspect-square h-auto w-36 justify-self-center md:col-span-1"
+        class="col-span-3 row-span-2 flex aspect-square h-auto w-36 justify-self-center md:col-span-1"
       />
-      <h3 class="col-span-3 text-3xl font-bold text-offwhite">Ever Hungry</h3>
+      <h3 class="col-span-3 flex items-center gap-4 text-3xl font-bold text-offwhite">
+        <GooglePlayIcon
+          :size="34"
+          class="transition-all duration-75 ease-in hover:scale-110 hover:cursor-pointer"
+        /><span> Ever Hungry </span>
+      </h3>
       <div class="col-span-3 text-lg">
         Trapped within this bleak forest, only accompanied by your fragile light, fend of the
         encroaching darkness and stand in defiance of this nightmarish entity that surrounds you.
