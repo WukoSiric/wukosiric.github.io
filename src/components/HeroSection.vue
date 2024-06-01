@@ -29,63 +29,72 @@ export default {
 </script>
 
 <template>
-  <div class="hero grid w-full grid-cols-3 gap-2 bg-fixed p-5 sm:px-20 lg:px-56 lg:py-36 2xl:px-80">
-    <span
-      class="col-span-3 justify-self-center font-mono text-2xl font-bold text-accent md:justify-self-start md:text-5xl"
-      >hello,
-    </span>
-    <span
-      class="col-span-3 flex items-center justify-self-center text-5xl font-bold text-offwhite md:col-span-2 md:justify-self-start md:text-7xl 2xl:col-span-1"
-    >
-      I'm Luke.
-    </span>
+  <div class="hero grid h-screen">
     <div
-      class="socials col-span-3 flex items-center justify-self-center md:col-span-1 md:justify-self-start"
+      class="grid h-1/2 w-full grid-cols-3 gap-2 justify-self-center bg-fixed p-5 py-24 sm:px-20 lg:px-56 2xl:px-80"
     >
-      <LinkedinIcon
-        :size="48"
-        class="transition-transform duration-75 hover:scale-110 hover:cursor-pointer"
-      />
-      <GithubIcon
-        :size="48"
-        class="transition-transform duration-75 hover:scale-110 hover:cursor-pointer"
-      />
-    </div>
-    <span class="col-span-3 text-lg font-light lg:col-span-2">
-      Welcome to my corner of the internet! I’m a recent Computer Science graduate with a strong
-      interest in web development, majoring in Distributed Systems and Networking. With experience
-      working in a collaborative environment under my belt, I look forward to applying and
-      developing my skills!
-    </span>
-    <LanPendingIcon
+      <span
+        class="col-span-3 justify-self-center font-mono text-2xl font-bold text-accent md:justify-self-start md:text-5xl"
+        >hello,
+      </span>
+      <span
+        class="col-span-3 flex items-center justify-self-center text-5xl font-bold text-offwhite md:col-span-2 md:justify-self-start md:text-7xl 2xl:col-span-1"
+      >
+        I'm Luke.
+      </span>
+      <div
+        class="socials col-span-3 flex items-center gap-2 justify-self-center md:col-span-1 md:justify-self-start"
+      >
+        <a
+          href="https://www.linkedin.com/in/luke-siric-stainer/"
+          class="transition-transform duration-75 hover:scale-110 hover:cursor-pointer"
+          target="_blank"
+          ><LinkedinIcon :size="48"
+        /></a>
+        <a
+          href="https://github.com/WukoSiric"
+          class="transition-transform duration-75 hover:scale-110 hover:cursor-pointer"
+          target="_blank"
+        >
+          <GithubIcon :size="48"
+        /></a>
+      </div>
+      <span class="col-span-3 text-lg font-light lg:col-span-2">
+        Welcome to my corner of the internet! I’m a recent Computer Science graduate with a strong
+        interest in web development, majoring in Distributed Systems and Networking. With experience
+        working in a collaborative environment under my belt, I look forward to applying and
+        developing my skills!
+      </span>
+      <!-- <LanPendingIcon
       fillColor="#42d957"
       :size="258"
       class="col-span-1 hidden justify-self-end drop-shadow-xl lg:grid"
-    />
-    <div class="spcaer col-span-3 h-5"></div>
-    <div class="languages col-span-3 md:col-span-1">
-      <span class="text-lg font-bold text-tert"> LANGUAGES </span>
-      <div class="icons flex">
-        <LanguageCPPIcon :size="40" />
-        <LanguageJavascriptIcon :size="40" />
-        <LanguagePythonIcon :size="40" />
-        <LanguageHTML5Icon :size="40" />
-        <LanguageCSS3Icon :size="40" />
+    /> -->
+      <div class="spcaer col-span-3 h-5"></div>
+      <div class="languages col-span-3 md:col-span-1">
+        <span class="text-lg font-bold text-tert"> LANGUAGES </span>
+        <div class="icons flex">
+          <LanguageCPPIcon :size="40" />
+          <LanguageJavascriptIcon :size="40" />
+          <LanguagePythonIcon :size="40" />
+          <LanguageHTML5Icon :size="40" />
+          <LanguageCSS3Icon :size="40" />
+        </div>
       </div>
-    </div>
-    <div class="tools col-span-3 md:col-span-1">
-      <span class="text-lg font-bold text-tert"> TOOLS </span>
-      <div class="icons flex">
-        <GitIcon :size="40" />
-        <VuejsIcon :size="40" />
-        <UnityIcon :size="40" />
+      <div class="tools col-span-3 md:col-span-1">
+        <span class="text-lg font-bold text-tert"> TOOLS </span>
+        <div class="icons flex">
+          <GitIcon :size="40" />
+          <VuejsIcon :size="40" />
+          <UnityIcon :size="40" />
+        </div>
       </div>
-    </div>
-    <div class="education col-span-3">
-      <span class="text-lg font-bold text-tert"> EDUCATION </span>
-      <div class="text-lg text-offwhite">
-        <span class="font-bold"> The University of Adelaide (2021 - 2023)<br /> </span>
-        <span> Bachelor of Computer Science (Distributed Systems and Networking) </span>
+      <div class="education col-span-3">
+        <span class="text-lg font-bold text-tert"> EDUCATION </span>
+        <div class="text-lg text-offwhite">
+          <span class="font-bold"> The University of Adelaide (2021 - 2023)<br /> </span>
+          <span> Bachelor of Computer Science (Distributed Systems and Networking) </span>
+        </div>
       </div>
     </div>
   </div>
