@@ -35,7 +35,7 @@ export default {
       >hello,
     </span>
     <span
-      class="col-span-3 flex items-center justify-self-center text-5xl font-bold text-offwhite sm:col-span-2 md:col-span-2 md:justify-self-start md:text-7xl 2xl:col-span-1"
+      class="col-span-3 flex items-center justify-self-center text-5xl font-bold text-offwhite md:col-span-2 md:justify-self-start md:text-7xl 2xl:col-span-1"
     >
       I'm Luke.
     </span>
