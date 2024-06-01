@@ -28,6 +28,7 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 200px;
   height: 100%;
+  min-width: 400px;
 }
 
 body {
