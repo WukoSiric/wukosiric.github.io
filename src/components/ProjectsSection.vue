@@ -28,7 +28,7 @@ export default {
       Personal Project (Ongoing)
     </h3>
     <h2 class="col-span-2 font-mono text-3xl font-bold xl:text-5xl">CHAT APPLICATION.</h2>
-    <span class="col-span-2 text-lg font-medium"
+    <span class="col-span-2 text-lg font-medium md:text-2xl"
       >Currently working on a full-stack chat application with MEVN in order to improve my CSS,
       along with learning Node.Js and MongoDB.</span
     >
@@ -45,24 +45,8 @@ export default {
       Personal Project (March)
     </h3>
     <h2 class="col-span-2 font-mono text-3xl font-bold xl:text-5xl">MAZE VISUALIZER.</h2>
-    <div
-      @click="toggleMazeGame"
-      class="col-span-2 grid w-full select-none gap-4 justify-self-center rounded-3xl border-accent bg-offwhite p-1 text-3xl font-bold text-gray-900 hover:cursor-pointer"
-    >
-      <div class="flex items-center gap-4">
-        <ArrowRightDropCircleOutlineIcon v-if="!showMazeGame" :size="40" />
-        <ArrowDownDropCircleOutlineIcon v-else :size="36" />
-        Preview
-      </div>
 
-      <embed
-        v-if="showMazeGame"
-        class="col-span-2"
-        src="https://wukosiric.github.io/vue-maze-visualizer/"
-        style="width: 100%; height: 60vh"
-      />
-    </div>
-    <span class="col-span-2 text-lg font-medium"
+    <span class="col-span-2 text-lg font-medium md:text-2xl"
       >Used Vue.Js to implement maze generating and solving graphics, deployed on GitHub Pages</span
     >
     <ul class="col-span-2 list-disc pl-5 text-lg font-light lg:col-span-1">
@@ -78,5 +62,22 @@ export default {
       <li>Organised project using GitHub tasks, issues, and a kanban</li>
     </ul>
     <img class="col-span-2 m-2 p-3 lg:col-span-1" src="../assets/img/mazesolver.png" />
+    <div
+      @click="toggleMazeGame"
+      class="col-span-2 grid w-3/4 select-none gap-4 justify-self-center rounded-3xl border-accent bg-offwhite p-1 text-3xl font-bold text-gray-900 hover:cursor-pointer"
+    >
+      <div class="flex items-center gap-4">
+        <ArrowRightDropCircleOutlineIcon v-if="!showMazeGame" :size="40" />
+        <ArrowDownDropCircleOutlineIcon v-else :size="36" />
+        Preview
+      </div>
+
+      <embed
+        v-if="showMazeGame"
+        class="col-span-2"
+        src="https://wukosiric.github.io/vue-maze-visualizer/"
+        style="width: 100%; height: 60vh"
+      />
+    </div>
   </div>
 </template>
