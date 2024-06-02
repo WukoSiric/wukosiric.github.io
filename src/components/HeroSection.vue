@@ -28,9 +28,9 @@ export default {
 </script>
 
 <template>
-  <div class="hero grid h-screen">
+  <div class="hero grid h-screen bg-fixed">
     <div
-      class="grid h-1/2 w-full grid-cols-3 gap-2 justify-self-center bg-fixed p-5 py-24 sm:px-20 lg:px-56 2xl:px-80"
+      class="grid h-1/2 w-full grid-cols-3 gap-2 justify-self-center p-5 py-24 sm:px-20 lg:px-56 2xl:px-80"
     >
       <span
         class="col-span-3 justify-self-center font-mono text-2xl font-bold text-accent md:justify-self-start md:text-5xl"
