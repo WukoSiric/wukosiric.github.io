@@ -48,7 +48,7 @@ export default {
           href="https://www.linkedin.com/in/luke-siric-stainer/"
           class="transition-transform duration-75 hover:scale-110 hover:cursor-pointer"
           target="_blank"
-          ><LinkedinIcon :size="48"
+          ><LinkedinIcon fill-color="#0077B5" :size="48"
         /></a>
         <a
           href="https://github.com/WukoSiric"
