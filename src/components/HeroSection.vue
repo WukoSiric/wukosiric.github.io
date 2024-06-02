@@ -1,28 +1,11 @@
 <script>
 import GithubIcon from 'vue-material-design-icons/Github.vue'
 import LinkedinIcon from 'vue-material-design-icons/Linkedin.vue'
-// import LanPendingIcon from 'vue-material-design-icons/LanPending.vue'
-import LanguageCPPIcon from 'vue-material-design-icons/LanguageCPP.vue'
-import LanguageJavascriptIcon from 'vue-material-design-icons/LanguageJavascript.vue'
-import LanguagePythonIcon from 'vue-material-design-icons/LanguagePython.vue'
-import LanguageHTML5Icon from 'vue-material-design-icons/LanguageHTML5.vue'
-import LanguageCSS3Icon from 'vue-material-design-icons/LanguageCSS3.vue'
-import GitIcon from 'vue-material-design-icons/Git.vue'
-import VuejsIcon from 'vue-material-design-icons/Vuejs.vue'
-import UnityIcon from 'vue-material-design-icons/Unity.vue'
 
 export default {
   components: {
     GithubIcon,
-    LinkedinIcon,
-    LanguageCPPIcon,
-    LanguageJavascriptIcon,
-    LanguagePythonIcon,
-    LanguageHTML5Icon,
-    LanguageCSS3Icon,
-    GitIcon,
-    VuejsIcon,
-    UnityIcon
+    LinkedinIcon
   }
 }
 </script>
@@ -64,28 +47,55 @@ export default {
         working in a collaborative environment under my belt, I look forward to applying and
         developing my skills!
       </span>
-      <!-- <LanPendingIcon
-      fillColor="#42d957"
-      :size="258"
-      class="col-span-1 hidden justify-self-end drop-shadow-xl lg:grid"
-    /> -->
       <div class="spcaer col-span-3 h-5"></div>
       <div class="languages col-span-3 md:col-span-1">
         <span class="text-lg font-bold text-tert"> LANGUAGES </span>
-        <div class="icons flex">
-          <LanguageCPPIcon :size="40" />
-          <LanguageJavascriptIcon :size="40" />
-          <LanguagePythonIcon :size="40" />
-          <LanguageHTML5Icon :size="40" />
-          <LanguageCSS3Icon :size="40" />
+        <div class="icons flex gap-1">
+          <img
+            class="size-10"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+          />
+          <img
+            class="size-10"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+          />
+          <img
+            class="size-10"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+          />
+          <img
+            class="size-10"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
+          />
+          <img
+            class="size-10"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+          />
         </div>
       </div>
       <div class="tools col-span-3 md:col-span-1">
         <span class="text-lg font-bold text-tert"> TOOLS </span>
-        <div class="icons flex">
-          <GitIcon :size="40" />
-          <VuejsIcon :size="40" />
-          <UnityIcon :size="40" />
+        <div class="icons flex gap-1">
+          <img
+            class="size-10"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+          />
+          <img
+            class="size-10"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg"
+          />
+          <img
+            class="size-10"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+          />
+          <img
+            class="size-10"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+          />
+          <img
+            class="size-10"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg"
+          />
         </div>
       </div>
       <div class="education col-span-3">
