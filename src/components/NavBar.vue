@@ -72,7 +72,11 @@ export default {
       <li
         class="border-r-10 select-none rounded-lg bg-accent p-1 px-2 text-slate-dark hover:cursor-pointer hover:bg-tert"
       >
-        <a class="flex gap-2" href="/src/assets/resources/resume.pdf" target="_blank">
+        <a
+          class="flex gap-2"
+          href="https://drive.google.com/file/d/1bkB9sssKb-eYi3U77j1GIQZVp3LXOrV7/view?usp=sharing"
+          target="_blank"
+        >
           <TabPlusIcon />
           Resume
         </a>
