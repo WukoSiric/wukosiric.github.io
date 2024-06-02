@@ -20,7 +20,7 @@ export default {
       >Collaborated with a designer and programmer to produce two hyper-casual mobile games released
       on the Google Play Store - each garnering 100+ downloads.</span
     >
-    <ul class="col-span-3 text-lg font-light md:col-span-2 xl:text-xl list-disc pl-6">
+    <ul class="col-span-3 list-disc pl-6 text-lg font-light md:col-span-2 xl:text-xl">
       <li>Responsible for programming inputs, level generation, and level transitions</li>
       <li>
         Utilised scriptable objects and abstract classes to smoothly implement powerup and economy
@@ -40,10 +40,14 @@ export default {
       <h3
         class="col-span-3 flex items-center gap-4 justify-self-start text-3xl font-bold text-offwhite"
       >
-        <GooglePlayIcon
-          :size="34"
+        <a
           class="transition-all duration-75 ease-in hover:scale-110 hover:cursor-pointer"
-        />
+          href="https://play.google.com/store/apps/details?id=com.minimammothgames.minigolfmayhem&hl=en_US"
+          target="_blank"
+        >
+          <GooglePlayIcon :size="34" />
+        </a>
+
         <span>Mini Golf Mayhem</span>
       </h3>
       <div class="col-span-3 text-lg">
@@ -57,10 +61,13 @@ export default {
         class="col-span-3 row-span-2 flex aspect-square h-auto w-36 justify-self-center md:col-span-1"
       />
       <h3 class="col-span-3 flex items-center gap-4 text-3xl font-bold text-offwhite">
-        <GooglePlayIcon
-          :size="34"
+        <a
+          href="https://play.google.com/store/apps/details?id=com.minimammothgames.everhungry&hl=en_AU&gl=US"
           class="transition-all duration-75 ease-in hover:scale-110 hover:cursor-pointer"
-        /><span> Ever Hungry </span>
+          target="_blank"
+          ><GooglePlayIcon :size="34"
+        /></a>
+        <span> Ever Hungry </span>
       </h3>
       <div class="col-span-3 text-lg">
         Trapped within this bleak forest, only accompanied by your fragile light, fend of the
