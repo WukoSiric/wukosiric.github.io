@@ -3,13 +3,15 @@ import NavBar from './components/NavBar.vue'
 import HeroSection from './components/HeroSection.vue'
 import ExperienceSection from './components/ExperienceSection.vue'
 import ProjectsSection from './components/ProjectsSection.vue'
+import ContactSection from './components/ContactSection.vue'
 
 export default {
   components: {
     NavBar,
     HeroSection,
     ExperienceSection,
-    ProjectsSection
+    ProjectsSection,
+    ContactSection
   }
 }
 </script>
@@ -20,6 +22,7 @@ export default {
     <HeroSection id="about" />
     <ExperienceSection id="experience" />
     <ProjectsSection id="projects" />
+    <ContactSection id="contact" />
   </div>
 </template>
 
