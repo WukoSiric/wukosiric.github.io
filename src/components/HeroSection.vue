@@ -1,7 +1,7 @@
 <script>
 import GithubIcon from 'vue-material-design-icons/Github.vue'
 import LinkedinIcon from 'vue-material-design-icons/Linkedin.vue'
-import LanPendingIcon from 'vue-material-design-icons/LanPending.vue'
+// import LanPendingIcon from 'vue-material-design-icons/LanPending.vue'
 import LanguageCPPIcon from 'vue-material-design-icons/LanguageCPP.vue'
 import LanguageJavascriptIcon from 'vue-material-design-icons/LanguageJavascript.vue'
 import LanguagePythonIcon from 'vue-material-design-icons/LanguagePython.vue'
@@ -15,7 +15,6 @@ export default {
   components: {
     GithubIcon,
     LinkedinIcon,
-    LanPendingIcon,
     LanguageCPPIcon,
     LanguageJavascriptIcon,
     LanguagePythonIcon,
