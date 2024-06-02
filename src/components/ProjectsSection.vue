@@ -21,7 +21,9 @@ export default {
 </script>
 
 <template>
-  <div class="projects grid grid-cols-2 bg-gray-950 px-5 pb-10 sm:px-24 md:px-52 2xl:px-80">
+  <div
+    class="projects grid grid-cols-2 bg-gradient-to-b from-slate-900 via-slate-900 to-gray-800 px-5 pb-10 sm:px-24 md:px-52 2xl:px-80"
+  >
     <h1 class="col-span-2 py-8 text-5xl font-bold md:text-7xl">Projects.</h1>
     <!-- Chat Application -->
     <h3 class="text-md col-span-2 font-mono font-bold text-accent xl:text-3xl">
