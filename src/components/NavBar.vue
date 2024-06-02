@@ -1,12 +1,13 @@
 <script>
 import MenuIcon from 'vue-material-design-icons/Menu.vue'
 import MenuCloseIcon from 'vue-material-design-icons/MenuClose.vue'
-import { RouterLink } from 'vue-router'
+import TabPlusIcon from 'vue-material-design-icons/TabPlus.vue'
 
 export default {
   components: {
     MenuIcon,
-    MenuCloseIcon
+    MenuCloseIcon,
+    TabPlusIcon
   },
   data() {
     return {
@@ -69,9 +70,12 @@ export default {
         Contact
       </li>
       <li
-        class="border-r-10 select-none rounded-lg bg-accent p-1 text-slate-dark hover:cursor-pointer hover:bg-tert"
+        class="border-r-10 select-none rounded-lg bg-accent p-1 px-2 text-slate-dark hover:cursor-pointer hover:bg-tert"
       >
-        Resume
+        <a class="flex gap-2" href="/src/assets/resources/resume.pdf" target="_blank">
+          <TabPlusIcon />
+          Resume
+        </a>
       </li>
     </ul>
   </div>
