@@ -10,6 +10,7 @@ export default {
       colors: {
         slate: {
           dark: '#0E242D',
+          darkest: '#050D10',
           light: '#133340'
         },
         offwhite: '#f2f2f2',
