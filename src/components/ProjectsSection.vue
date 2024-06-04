@@ -1,11 +1,15 @@
 <script>
 import ArrowRightDropCircleOutlineIcon from 'vue-material-design-icons/ArrowRightDropCircleOutline.vue'
 import ArrowDownDropCircleOutlineIcon from 'vue-material-design-icons/ArrowDownDropCircleOutline.vue'
+import MainTitle from './text/MainTitle.vue'
+import EyebrowTitle from './text/EyebrowTitle.vue'
 
 export default {
   components: {
     ArrowRightDropCircleOutlineIcon,
-    ArrowDownDropCircleOutlineIcon
+    ArrowDownDropCircleOutlineIcon,
+    MainTitle,
+    EyebrowTitle
   },
   data() {
     return {
@@ -26,11 +30,9 @@ export default {
   >
     <h1 class="col-span-2 py-8 text-5xl font-bold md:text-7xl">Projects.</h1>
     <!-- Chat Application -->
-    <h3 class="text-md col-span-2 font-mono font-bold text-accent xl:text-3xl">
-      Personal Project (Ongoing)
-    </h3>
-    <h2 class="col-span-2 font-mono text-3xl font-bold xl:text-5xl">CHAT APPLICATION.</h2>
-    <span class="col-span-2 text-lg font-medium md:text-2xl"
+    <EyebrowTitle class="col-span-full"> Personal Project (Ongoing) </EyebrowTitle>
+    <MainTitle class="col-span-full"> Chat application. </MainTitle>
+    <span class="col-span-2 text-lg md:text-2xl"
       >Currently working on a full-stack chat application with MEVN in order to improve my CSS,
       along with learning Node.Js and MongoDB.</span
     >
@@ -43,14 +45,12 @@ export default {
     </ul>
     <img class="col-span-2 w-full p-3 lg:col-span-1" src="../assets/img/chatapp.png" />
     <!-- Maze Visualizer -->
-    <h3 class="text-md col-span-2 font-mono font-bold text-accent xl:text-3xl">
-      Personal Project (March)
-    </h3>
-    <h2 class="col-span-2 font-mono text-3xl font-bold xl:text-5xl">MAZE VISUALIZER.</h2>
+    <EyebrowTitle class="col-span-full"> Personal Project (March) </EyebrowTitle>
+    <MainTitle class="col-span-full">MAZE VISUALIZER.</MainTitle>
 
-    <span class="col-span-2 text-lg font-medium md:text-2xl"
-      >Used Vue.Js to implement maze generating and solving graphics, deployed on GitHub Pages</span
-    >
+    <span class="col-span-2 text-lg md:text-2xl"
+      >Used Vue.Js to implement maze generating and solving graphics, deployed on GitHub Pages.
+    </span>
     <ul class="col-span-2 list-disc pl-5 text-lg font-light lg:col-span-1">
       <li>
         Completed maze generation with recursive backtracking, along with DFS and BFS for maze
