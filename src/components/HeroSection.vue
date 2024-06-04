@@ -102,9 +102,9 @@ export default {
           />
         </div>
       </div>
-      <div class="education col-span-3 text-center md:text-start">
-        <span class="text-lg font-bold text-tert"> EDUCATION </span>
-        <div class="text-md text-center text-offwhite sm:text-lg md:text-start">
+      <div class="education text-md col-span-3 text-center sm:text-lg md:text-start">
+        <span class="font-bold text-tert"> EDUCATION </span>
+        <div class="text-center text-offwhite md:text-start">
           <span class="font-bold"> The University of Adelaide (2021 - 2023)<br /> </span>
           <span> Bachelor of Computer Science (Distributed Systems and Networking) </span>
         </div>
