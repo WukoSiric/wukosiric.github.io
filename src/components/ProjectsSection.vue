@@ -3,13 +3,15 @@ import ArrowRightDropCircleOutlineIcon from 'vue-material-design-icons/ArrowRigh
 import ArrowDownDropCircleOutlineIcon from 'vue-material-design-icons/ArrowDownDropCircleOutline.vue'
 import MainTitle from './text/MainTitle.vue'
 import EyebrowTitle from './text/EyebrowTitle.vue'
+import RepoButton from './buttons/RepoButton.vue'
 
 export default {
   components: {
     ArrowRightDropCircleOutlineIcon,
     ArrowDownDropCircleOutlineIcon,
     MainTitle,
-    EyebrowTitle
+    EyebrowTitle,
+    RepoButton
   },
   data() {
     return {
@@ -43,7 +45,8 @@ export default {
       </li>
       <li>Connected server to Atlas DB server using .env files</li>
     </ul>
-    <img class="col-span-2 w-full p-3 lg:col-span-1" src="../assets/img/chatapp.png" />
+    <img class="col-span-2 p-3 lg:col-span-1" src="../assets/img/chatapp.png" />
+    <RepoButton href="https://github.com/WukoSiric/chat-app" />
     <!-- Maze Visualizer -->
     <EyebrowTitle class="col-span-full"> Personal Project (March) </EyebrowTitle>
     <MainTitle class="col-span-full">MAZE VISUALIZER.</MainTitle>
@@ -64,6 +67,8 @@ export default {
       <li>Organised project using GitHub tasks, issues, and a kanban</li>
     </ul>
     <img class="col-span-2 m-2 p-3 lg:col-span-1" src="../assets/img/mazesolver.png" />
+    <RepoButton href="https://github.com/WukoSiric/vue-maze-visualizer" />
+
     <div
       @click="toggleMazeGame"
       class="col-span-2 grid w-3/4 select-none gap-4 justify-self-center rounded-3xl border-accent bg-offwhite p-1 text-3xl font-bold text-gray-900 hover:cursor-pointer"
