@@ -1,16 +1,12 @@
 <script>
 import MainTitle from './text/MainTitle.vue'
 import EyebrowTitle from './text/EyebrowTitle.vue'
-import RepoButton from './buttons/RepoButton.vue'
-import VisitButton from './buttons/VisitButton.vue'
 import ExternalButton from './buttons/ExternalButton.vue'
 
 export default {
   components: {
     MainTitle,
     EyebrowTitle,
-    RepoButton,
-    VisitButton,
     ExternalButton
   },
   data() {
