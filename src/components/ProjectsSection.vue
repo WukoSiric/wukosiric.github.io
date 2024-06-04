@@ -27,7 +27,7 @@ export default {
     >
       <EyebrowTitle class="col-span-full drop-shadow-md"> Personal Project (Ongoing) </EyebrowTitle>
       <MainTitle class="col-span-full"> Chat application. </MainTitle>
-      <span class="col-span-2 text-lg font-medium md:text-xl"
+      <span class="col-span-2 text-lg md:text-xl"
         >Currently working on a full-stack chat application with MEVN in order to improve my CSS,
         along with learning Node.Js and MongoDB.</span
       >
@@ -64,7 +64,7 @@ export default {
       <EyebrowTitle class="col-span-full drop-shadow-md"> Personal Project (March) </EyebrowTitle>
       <MainTitle class="col-span-full">MAZE VISUALIZER.</MainTitle>
 
-      <span class="col-span-2 text-lg font-medium md:text-xl"
+      <span class="col-span-2 text-lg md:text-xl"
         >Used Vue.Js to implement maze generating and solving graphics, deployed on GitHub Pages.
       </span>
       <ul class="col-span-2 list-disc pl-5 text-lg font-light lg:col-span-1">
@@ -111,7 +111,7 @@ export default {
         Distributed Systems ('23 Nov)
       </EyebrowTitle>
       <MainTitle class="col-span-full">Weather Aggregation System.</MainTitle>
-      <span class="col-span-2 text-lg font-medium md:text-xl"
+      <span class="col-span-2 text-lg md:text-xl"
         >Designed and implemented a weather aggregation system following a RESTful API in Java, with
         data expunging.
       </span>
@@ -139,5 +139,70 @@ export default {
         </ExternalButton>
       </div>
     </div>
+    <!-- Event Calendar -->
+    <div
+      class="col-span-full m-1 mb-4 grid break-inside-avoid-column grid-cols-2 content-start rounded-2xl bg-gradient-to-b from-slate-light to-slate-dark p-4 shadow-xl xl:col-span-1"
+    >
+      <EyebrowTitle class="col-span-full drop-shadow-md"> Web Development ('22 July) </EyebrowTitle>
+      <MainTitle class="col-span-full">Event Calendar. </MainTitle>
+      <span class="col-span-2 text-lg md:text-xl"
+        >Worked in a small team to create an event scheduling web application that allows users to
+        plan events
+      </span>
+      <ul class="col-span-2 list-disc pl-5 text-lg font-light">
+        <li>
+          Created user and administrator dashboards, fetching backend data with appropriate MySQL
+          queries
+        </li>
+        <li>
+          Implemented user authentication system using AJAX, MySQL and Express.Js sessions
+          middleware
+        </li>
+      </ul>
+      <div class="col-span-full flex">
+        <ExternalButton
+          class="justify-self-center"
+          href="https://github.com/wdcmasters/event-calendar"
+          img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+        >
+          View Repository
+        </ExternalButton>
+      </div>
+    </div>
+    <!-- Event Calendar -->
+    <div
+      class="col-span-full m-1 mb-4 grid break-inside-avoid-column grid-cols-2 content-start rounded-2xl bg-gradient-to-b from-slate-light to-slate-dark p-4 shadow-xl xl:col-span-1"
+    >
+      <EyebrowTitle class="col-span-full drop-shadow-md"> Networks ('23 May) </EyebrowTitle>
+      <MainTitle class="col-span-full">Routing Simulation. </MainTitle>
+      <span class="col-span-2 text-lg md:text-xl"
+        >Simulation showcasing the Distance-Vector routing algorithm.
+      </span>
+      <ul class="col-span-2 list-disc pl-5 text-lg font-light">
+        <li>Implementation of the Bellman-Ford algorithm in Python for a network topology</li>
+        <li>
+          Traversed an undirected weighted graph to determine most efficient paths between routers
+        </li>
+        <li>
+          Nodes independently process information from their neighbours, mirroring routing tables
+        </li>
+      </ul>
+      <div class="col-span-full flex">
+        <ExternalButton
+          class="justify-self-center"
+          href="https://github.com/WukoSiric/Distance-Vector-Networking"
+          img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+        >
+          View Repository
+        </ExternalButton>
+      </div>
+    </div>
   </div>
 </template>
+
+<style>
+.eventcal {
+  background-image: linear-gradient(rgba(22, 32, 66, 0.548), transparent),
+    linear-gradient(rgba(0, 0, 0, 0.274), rgb(0, 0, 0)), url(../assets/img/eventcal.png);
+}
+</style>
