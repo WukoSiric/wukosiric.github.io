@@ -1,6 +1,4 @@
 <script>
-import ArrowRightDropCircleOutlineIcon from 'vue-material-design-icons/ArrowRightDropCircleOutline.vue'
-import ArrowDownDropCircleOutlineIcon from 'vue-material-design-icons/ArrowDownDropCircleOutline.vue'
 import MainTitle from './text/MainTitle.vue'
 import EyebrowTitle from './text/EyebrowTitle.vue'
 import RepoButton from './buttons/RepoButton.vue'
@@ -9,8 +7,6 @@ import ExternalButton from './buttons/ExternalButton.vue'
 
 export default {
   components: {
-    ArrowRightDropCircleOutlineIcon,
-    ArrowDownDropCircleOutlineIcon,
     MainTitle,
     EyebrowTitle,
     RepoButton,
