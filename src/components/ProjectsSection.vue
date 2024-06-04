@@ -41,10 +41,13 @@ export default {
     </ul>
     <img class="col-span-2 p-3 lg:col-span-1" src="../assets/img/chatapp.png" />
     <div class="col-span-full flex flex-wrap">
-      <RepoButton
-        class="col-span-full justify-self-center"
+      <ExternalButton
+        class="justify-self-center"
         href="https://github.com/WukoSiric/chat-app"
-      />
+        img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+      >
+        View Repository
+      </ExternalButton>
       <ExternalButton
         class="justify-self-center"
         href="https://www.figma.com/design/0tZ3uic0obAbmPeEBdawzY/ChatSphere?node-id=0-1&t=gDjWgJSmT9jzRWjO-1"
@@ -74,14 +77,20 @@ export default {
     </ul>
     <img class="col-span-2 m-2 p-3 lg:col-span-1" src="../assets/img/mazesolver.png" />
     <div class="col-span-full flex flex-wrap">
-      <RepoButton
+      <ExternalButton
         class="justify-self-center"
         href="https://github.com/WukoSiric/vue-maze-visualizer"
-      />
-      <VisitButton
+        img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+      >
+        View Repository
+      </ExternalButton>
+      <ExternalButton
         class="justify-self-center"
         href="https://wukosiric.github.io/vue-maze-visualizer/"
-      />
+        img="https://www.svgrepo.com/show/521261/web.svg"
+      >
+        Visit
+      </ExternalButton>
       <ExternalButton
         class="justify-self-center"
         href="https://www.figma.com/design/xugeEnTLgb1za87gjdWdRz/Maze-Solver?node-id=0-1&t=Mb6Rs06pP6NrTIlU-1"
