@@ -4,6 +4,8 @@ import ArrowDownDropCircleOutlineIcon from 'vue-material-design-icons/ArrowDownD
 import MainTitle from './text/MainTitle.vue'
 import EyebrowTitle from './text/EyebrowTitle.vue'
 import RepoButton from './buttons/RepoButton.vue'
+import VisitButton from './buttons/VisitButton.vue'
+import ExternalButton from './buttons/ExternalButton.vue'
 
 export default {
   components: {
@@ -11,7 +13,9 @@ export default {
     ArrowDownDropCircleOutlineIcon,
     MainTitle,
     EyebrowTitle,
-    RepoButton
+    RepoButton,
+    VisitButton,
+    ExternalButton
   },
   data() {
     return {
@@ -46,7 +50,19 @@ export default {
       <li>Connected server to Atlas DB server using .env files</li>
     </ul>
     <img class="col-span-2 p-3 lg:col-span-1" src="../assets/img/chatapp.png" />
-    <RepoButton href="https://github.com/WukoSiric/chat-app" />
+    <div class="col-span-full flex flex-wrap">
+      <RepoButton
+        class="col-span-full justify-self-center"
+        href="https://github.com/WukoSiric/chat-app"
+      />
+      <ExternalButton
+        class="justify-self-center"
+        href="https://www.figma.com/design/0tZ3uic0obAbmPeEBdawzY/ChatSphere?node-id=0-1&t=gDjWgJSmT9jzRWjO-1"
+        img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+        >View Design File</ExternalButton
+      >
+    </div>
+
     <!-- Maze Visualizer -->
     <EyebrowTitle class="col-span-full"> Personal Project (March) </EyebrowTitle>
     <MainTitle class="col-span-full">MAZE VISUALIZER.</MainTitle>
@@ -67,7 +83,22 @@ export default {
       <li>Organised project using GitHub tasks, issues, and a kanban</li>
     </ul>
     <img class="col-span-2 m-2 p-3 lg:col-span-1" src="../assets/img/mazesolver.png" />
-    <RepoButton href="https://github.com/WukoSiric/vue-maze-visualizer" />
+    <div class="col-span-full flex flex-wrap">
+      <RepoButton
+        class="justify-self-center"
+        href="https://github.com/WukoSiric/vue-maze-visualizer"
+      />
+      <VisitButton
+        class="justify-self-center"
+        href="https://wukosiric.github.io/vue-maze-visualizer/"
+      />
+      <ExternalButton
+        class="justify-self-center"
+        href="https://www.figma.com/design/xugeEnTLgb1za87gjdWdRz/Maze-Solver?node-id=0-1&t=Mb6Rs06pP6NrTIlU-1"
+        img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+        >View Design File</ExternalButton
+      >
+    </div>
 
     <div
       @click="toggleMazeGame"
