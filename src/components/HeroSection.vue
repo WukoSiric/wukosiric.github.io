@@ -13,7 +13,7 @@ export default {
 <template>
   <div class="hero grid h-screen bg-fixed">
     <div
-      class="grid h-1/2 w-full grid-cols-3 gap-2 justify-self-center p-5 py-24 sm:px-20 lg:px-56 2xl:px-80"
+      class="grid h-1/2 w-full grid-cols-3 gap-2 justify-self-center p-5 py-6 sm:px-20 sm:py-24 lg:px-56 2xl:px-80"
     >
       <span
         class="col-span-3 justify-self-center font-mono text-2xl font-bold text-accent md:justify-self-start md:text-5xl"
@@ -41,14 +41,16 @@ export default {
           <GithubIcon :size="48"
         /></a>
       </div>
-      <span class="col-span-3 text-lg font-light lg:col-span-2">
+      <span class="text-md col-span-3 font-light sm:text-lg lg:col-span-2">
         Welcome to my corner of the internet! I’m a recent Computer Science graduate with a strong
         interest in web development, majoring in Distributed Systems and Networking. With experience
         working in a collaborative environment under my belt, I look forward to applying and
         developing my skills!
       </span>
       <div class="spcaer col-span-3 h-5"></div>
-      <div class="languages col-span-3 md:col-span-1">
+      <div
+        class="col-span-full justify-self-center text-center md:col-span-1 md:justify-self-start md:text-start"
+      >
         <span class="text-lg font-bold text-tert"> LANGUAGES </span>
         <div class="icons flex gap-1">
           <img
@@ -73,7 +75,9 @@ export default {
           />
         </div>
       </div>
-      <div class="tools col-span-3 md:col-span-1">
+      <div
+        class="col-span-full justify-self-center text-center md:col-span-1 md:justify-self-start md:text-start"
+      >
         <span class="text-lg font-bold text-tert"> TOOLS </span>
         <div class="icons flex gap-1">
           <img
@@ -98,9 +102,9 @@ export default {
           />
         </div>
       </div>
-      <div class="education col-span-3">
+      <div class="education col-span-3 text-center md:text-start">
         <span class="text-lg font-bold text-tert"> EDUCATION </span>
-        <div class="text-lg text-offwhite">
+        <div class="text-md text-center text-offwhite sm:text-lg md:text-start">
           <span class="font-bold"> The University of Adelaide (2021 - 2023)<br /> </span>
           <span> Bachelor of Computer Science (Distributed Systems and Networking) </span>
         </div>
