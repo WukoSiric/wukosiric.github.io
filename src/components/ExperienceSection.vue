@@ -1,13 +1,13 @@
 <script>
 import MainTitle from './text/MainTitle.vue'
 import EyebrowTitle from './text/EyebrowTitle.vue'
-import GooglePlayIcon from 'vue-material-design-icons/GooglePlay.vue'
+import ExternalButton from './buttons/ExternalButton.vue'
 
 export default {
   components: {
     MainTitle,
     EyebrowTitle,
-    GooglePlayIcon
+    ExternalButton
   }
 }
 </script>
@@ -40,17 +40,14 @@ export default {
         class="col-span-3 row-span-2 aspect-square h-auto w-36 justify-self-center md:col-span-1"
       />
       <h3
-        class="col-span-3 flex items-center gap-4 justify-self-start text-3xl font-bold text-offwhite"
+        class="col-span-3 flex items-center gap-4 justify-self-start text-4xl font-medium text-offwhite"
       >
-        <a
-          class="transition-all duration-75 ease-in hover:scale-110 hover:cursor-pointer"
-          href="https://play.google.com/store/apps/details?id=com.minimammothgames.minigolfmayhem&hl=en_US"
-          target="_blank"
-        >
-          <GooglePlayIcon :size="34" />
-        </a>
-
         <span>Mini Golf Mayhem</span>
+        <ExternalButton
+          img="https://www.svgrepo.com/show/223032/playstore.svg"
+          href="https://play.google.com/store/apps/details?id=com.minimammothgames.minigolfmayhem&hl=en_US"
+        >
+        </ExternalButton>
       </h3>
       <div class="col-span-3 text-lg">
         Mayhem meets mini golf in this simple but ridiculously chaotic game, featuring short
@@ -62,14 +59,15 @@ export default {
         src="../assets/img/everhungry.png"
         class="col-span-3 row-span-2 flex aspect-square h-auto w-36 justify-self-center md:col-span-1"
       />
-      <h3 class="col-span-3 flex items-center gap-4 text-3xl font-bold text-offwhite">
-        <a
-          href="https://play.google.com/store/apps/details?id=com.minimammothgames.everhungry&hl=en_AU&gl=US"
-          class="transition-all duration-75 ease-in hover:scale-110 hover:cursor-pointer"
-          target="_blank"
-          ><GooglePlayIcon :size="34"
-        /></a>
+      <h3
+        class="col-span-3 flex items-center gap-4 justify-self-start text-4xl font-medium text-offwhite"
+      >
         <span> Ever Hungry </span>
+        <ExternalButton
+          img="https://www.svgrepo.com/show/223032/playstore.svg"
+          href="https://play.google.com/store/apps/details?id=com.minimammothgames.everhungry&hl=en_AU&gl=US"
+        >
+        </ExternalButton>
       </h3>
       <div class="col-span-3 text-lg">
         Trapped within this bleak forest, only accompanied by your fragile light, fend of the
