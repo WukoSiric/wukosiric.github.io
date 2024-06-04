@@ -18,15 +18,9 @@ export default {
     ExternalButton
   },
   data() {
-    return {
-      showMazeGame: false
-    }
+    return {}
   },
-  methods: {
-    toggleMazeGame() {
-      this.showMazeGame = !this.showMazeGame
-    }
-  }
+  methods: {}
 }
 </script>
 
@@ -98,24 +92,6 @@ export default {
         img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
         >View Design File</ExternalButton
       >
-    </div>
-
-    <div
-      @click="toggleMazeGame"
-      class="col-span-2 grid w-3/4 select-none gap-4 justify-self-center rounded-3xl border-accent bg-offwhite p-1 text-3xl font-bold text-gray-900 hover:cursor-pointer"
-    >
-      <div class="flex items-center gap-4">
-        <ArrowRightDropCircleOutlineIcon v-if="!showMazeGame" :size="40" />
-        <ArrowDownDropCircleOutlineIcon v-else :size="36" />
-        Preview
-      </div>
-
-      <embed
-        v-if="showMazeGame"
-        class="col-span-2"
-        src="https://wukosiric.github.io/vue-maze-visualizer/"
-        style="width: 100%; height: 60vh"
-      />
     </div>
   </div>
 </template>
