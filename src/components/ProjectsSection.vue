@@ -200,9 +200,4 @@ export default {
   </div>
 </template>
 
-<style>
-.eventcal {
-  background-image: linear-gradient(rgba(22, 32, 66, 0.548), transparent),
-    linear-gradient(rgba(0, 0, 0, 0.274), rgb(0, 0, 0)), url(../assets/img/eventcal.png);
-}
-</style>
+<style></style>
