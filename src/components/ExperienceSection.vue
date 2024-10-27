@@ -16,7 +16,23 @@ export default {
   <div class="experience grid w-full grid-cols-3 px-5 py-20 pb-40 sm:px-24 md:px-52 2xl:px-80">
     <div class="gameplay absolute left-1/3 h-full w-1/2"></div>
     <h1 class="col-span-3 py-8 text-5xl font-bold md:text-7xl">Experience.</h1>
-    <MainTitle class="col-span-full">PROGRAMMER.</MainTitle>
+    <MainTitle class="col-span-full">JUNIOR SOFTWARE ENGINEER.</MainTitle>
+    <EyebrowTitle class="col-span-full"> OneTeam Services (‘24 September) </EyebrowTitle>
+    <span class="col-span-3 text-lg md:text-2xl"
+      >Working on new project powered by React, Kotlin (Ktor) and PostgreSQL</span
+    >
+    <ul class="col-span-3 list-disc pl-6 text-lg font-light md:col-span-2 xl:text-xl">
+      <li>
+        Implemented REST API endpoints, following controller-service-repository model in Kotlin with
+        request validation
+      </li>
+      <li>
+        Designed and implemented error handling strategy using defined database constraints,
+        displayed on the front-end
+      </li>
+      <li>Created and deployed migration scripts using Flyway</li>
+    </ul>
+    <MainTitle class="col-span-full pt-5">PROGRAMMER.</MainTitle>
     <EyebrowTitle class="col-span-full"> Mini Mammoth Games (‘23 Jan - '23 March) </EyebrowTitle>
     <span class="col-span-3 text-lg md:text-2xl"
       >Collaborated with a designer and programmer to produce two hyper-casual mobile games released

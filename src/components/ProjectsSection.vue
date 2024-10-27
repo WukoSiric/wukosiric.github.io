@@ -169,7 +169,7 @@ export default {
         </ExternalButton>
       </div>
     </div>
-    <!-- Event Calendar -->
+    <!-- Routing Simulation -->
     <div
       class="col-span-full m-1 mb-4 grid break-inside-avoid-column grid-cols-2 content-start rounded-2xl bg-gradient-to-b from-slate-light to-slate-dark p-4 shadow-xl xl:col-span-1"
     >

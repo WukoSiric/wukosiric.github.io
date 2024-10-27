@@ -43,9 +43,8 @@ export default {
       </div>
       <span class="text-md col-span-3 font-light sm:text-lg lg:col-span-2">
         Welcome to my corner of the internet! I’m a recent Computer Science graduate with a strong
-        interest in web development, majoring in Distributed Systems and Networking. With experience
-        working in a collaborative environment under my belt, I look forward to applying and
-        developing my skills!
+        interest in web development, majoring in Distributed Systems and Networking. Currently, I'm
+        working as a software engineer at OneTeam Services!
       </span>
       <div class="spcaer col-span-3 h-5"></div>
       <div
@@ -55,7 +54,7 @@ export default {
         <div class="icons flex gap-1">
           <img
             class="size-10"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
           />
           <img
             class="size-10"
@@ -63,15 +62,21 @@ export default {
           />
           <img
             class="size-10"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg"
+          />
+
+          <img
+            class="size-10"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+          />
+
+          <img
+            class="size-10"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
           />
           <img
             class="size-10"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
-          />
-          <img
-            class="size-10"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
           />
         </div>
       </div>
@@ -86,11 +91,19 @@ export default {
           />
           <img
             class="size-10"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+          />
+          <img
+            class="size-10"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg"
           />
           <img
             class="size-10"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+          />
+          <img
+            class="size-10"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"
           />
           <img
             class="size-10"
